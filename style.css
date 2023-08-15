@@ -1,0 +1,70 @@
+.container {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: rgba(8, 234, 65, .5);
+}
+
+.form-startgame {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-start {
+  padding: 5px;
+  margin-right: 25px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  outline: none;
+}
+
+
+
+.btn-start {
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-color: rgba(39, 39, 219, .7);
+  color: #fff;
+  cursor: pointer;
+  transition: transform .5s ease-in-out;
+}
+
+.btn-start:active {
+  transform: scale(0.9);
+}
+
+.row {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: blue;
+  cursor: pointer;
+  font-size: 36px;
+  color: transparent;
+  transition: color .3s ease-in-out, background-color .3s ease-in-out, transform .3s ease-in-out;
+}
+
+.card:not(:last-child) {
+  margin-right: 10px;
+}
+
+.visible {
+  color: white;
+}
+
+.success {
+  scale: 0.95;
+  background-color: green;
+}
